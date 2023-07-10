@@ -13,7 +13,7 @@ namespace PostApplication.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(int ID)
         {
             return View();
         }
